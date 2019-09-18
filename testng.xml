@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="ASGUIAutomation" verbose="1" >
+    <test name="Tests for Live" parallel="classes" thread-count="2">
+        <classes>
+            <class name="TestClass"/>
+        </classes>
+    </test>
+</suite>
